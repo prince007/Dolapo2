@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BibleChamp</title>
+<link href="oneColFixCtr.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:hover {
+	color: #006600;
+}
+a:active {
+	color: #FF0000;
+}
+a {
+	font-family: "Times New Roman", Times, serif;
+}
+</style>
+</head>
+
+<body vlink="#FFFFFF" alink="#00CC33"> 
+
+<div class="container">
+  <div class="content">
+    <p>
+    <ul><li><a href="david_Goliath.html">PLAY</a> </li>
+      <li><a href="topscore.html">TOPSCORE</a></li>
+    <li><a href="#">SETTINGS</a></li>
+    <li><a href="#">HELP</a> </li>
+    <li><a href="#"></a><a href="About.html">ABOUT</a></li>
+    <br />
+    <button onclick="enableMute()" type="button"><strike>&#9836</strike></button>
+    <button onclick="disableMute()" type="button">&#9836</button>
+    </ul>
+    <p>
+      </p>
+    <!-- end .content --></p>
+  </div>
+  <!-- end .container --></div>
+      <video autoplay controls loop="loop" class="container" id="myAudio">
+  <source id="mp3_src" src="Michel_Teló.mp3" type="audio/mp3">
+ </video>
+
+<script> 
+function myFunction() 
+	{
+    document.getElementById("mp3_src");
+    document.getElementById("myAudio").load();}
+	{
+		var x = document.getElementById("myAudio");}
+	
+	function enableMute() { 
+    x.muted = true;
+} 
+
+function disableMute() { 
+    x.muted = false;
+}
+ 
+function checkMute() { 
+    alert(x.muted);
+} 
+	
+
+</script> 
+
+
+</li> 
+  </ul>
+  </div>
+</body>
+</html>
